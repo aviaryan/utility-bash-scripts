@@ -3,7 +3,7 @@
 Utility bash scripts to do stuff like download youtube videos, download music from youtube, kill dangling Docker images, etc.
 
 
-## PRO TIP
+## PRO-TIP
 
 For best results, clone this git repo to a fixed location on your computer and add it to `$PATH`.
 
@@ -13,6 +13,7 @@ git clone git@github.com:aviaryan/utility-bash-scripts.git scripts
 cd scripts
 export PATH="$(pwd):$PATH"
 ```
+
 
 ## SCRIPTS
 
@@ -59,7 +60,7 @@ tomp3 <path to file>
 
 ### Uglify a JS code
 
-Requies [Uglijy-JS](https://www.npmjs.com/package/uglify-js).
+Dependencies: [Uglijy-JS](https://www.npmjs.com/package/uglify-js).
 
 ```sh
 uglify <input JS file> <output file>
@@ -67,8 +68,35 @@ uglify <input JS file> <output file>
 
 ### Download audio from SoundCloud
 
-Requires [Soundscrape](https://github.com/Miserlou/SoundScrape)
+Dependencies: [Soundscrape](#soundscrape)
 
 ```sh
 soundcloud-music <link to soundcloud>
+```
+
+
+## DEPENDENCIES
+
+#### ffmpeg
+
+Download from https://www.ffmpeg.org/ and add it to `PATH`.
+
+#### youtube-dl
+
+```
+pip install youtube-dl
+```
+
+#### soundscrape
+
+```
+pip install soundscrape
+```
+
+#### UglifyJS
+
+https://www.npmjs.com/package/uglify-js
+
+```
+npm install -g uglify-js
 ```
