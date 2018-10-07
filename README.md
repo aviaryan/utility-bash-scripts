@@ -21,7 +21,7 @@ export PATH="$(pwd):$PATH"
 
 ### Download video from YouTube in MP4 format
 
-*Dependencies*: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/)
+Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/)
 
 ```sh
 youtube-video "https://www.youtube.com/watch?v=HgfojLtSBTM"
@@ -29,7 +29,7 @@ youtube-video "https://www.youtube.com/watch?v=HgfojLtSBTM"
 
 ### Merge video and audio together
 
-*Dependencies*: [ffmpeg](https://www.ffmpeg.org/)
+Dependencies: [ffmpeg](https://www.ffmpeg.org/)
 
 ```sh
 vamerge <path to video file> <path to audio file>
@@ -38,7 +38,7 @@ vamerge <path to video file> <path to audio file>
 
 ### Download audio from YouTube in OGG format
 
-*Dependencies*: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/)
+Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/)
 
 ```sh
 youtube-music "https://www.youtube.com/watch?v=HgfojLtSBTM"  
@@ -46,7 +46,7 @@ youtube-music "https://www.youtube.com/watch?v=HgfojLtSBTM"
 
 ### Convert audio file to OGG
 
-*Dependencies*: [ffmpeg](https://www.ffmpeg.org/)
+Dependencies: [ffmpeg](https://www.ffmpeg.org/)
 
 ```sh
 toogg <path to file>
@@ -54,7 +54,7 @@ toogg <path to file>
 
 ### Convert audio file to MP3
 
-*Dependencies*: [ffmpeg](https://www.ffmpeg.org/)
+Dependencies: [ffmpeg](https://www.ffmpeg.org/)
 
 ```sh
 tomp3 <path to file>
@@ -62,7 +62,7 @@ tomp3 <path to file>
 
 ### [Uglify a JS code](uglify)
 
-*Dependencies*: [Uglify-JS](https://www.npmjs.com/package/uglify-js)
+Dependencies: [Uglify-JS](https://www.npmjs.com/package/uglify-js)
 
 ```sh
 uglify <input JS file> <output file>
@@ -70,8 +70,8 @@ uglify <input JS file> <output file>
 
 ### Download audio from SoundCloud
 
-*Script*: [soundcloud-music](soundcloud-music)
-*Dependencies*: [Soundscrape](https://github.com/Miserlou/SoundScrape)
+Script: [soundcloud-music](soundcloud-music)  
+Dependencies: [Soundscrape](https://github.com/Miserlou/SoundScrape)
 
 ```sh
 soundcloud-music <link to soundcloud>
@@ -79,7 +79,7 @@ soundcloud-music <link to soundcloud>
 
 ### Force stop and clean Docker containers
 
-*Script*: [dckill](dckill)
+Script: [dckill](dckill)
 
 ```sh
 dckill
