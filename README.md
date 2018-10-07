@@ -65,7 +65,7 @@ Dependencies: [ffmpeg](https://www.ffmpeg.org/)
 tomp3 <path to file>
 ```
 
-### [Uglify a JS code](uglify)
+### Uglify a JS code
 
 Script: [uglify](uglify)  
 Dependencies: [Uglify-JS](https://www.npmjs.com/package/uglify-js)
