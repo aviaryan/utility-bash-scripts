@@ -86,18 +86,18 @@ Dependencies: [Soundscrape](https://github.com/Miserlou/SoundScrape)
 soundcloud-music <link to soundcloud>
 ```
 
-### 🤐 ZIP without .DS_Store on a Mac
-
-Script: [maczip](maczip)
-
-```sh
-maczip <path to folder>
-```
-
 ### 🐳 Force stop and clean Docker containers
 
 Script: [dckill](dckill)
 
 ```sh
 dckill
+```
+
+### 🤐 ZIP without .DS_Store on a Mac
+
+Script: [maczip](maczip)
+
+```sh
+maczip <path to folder>
 ```
