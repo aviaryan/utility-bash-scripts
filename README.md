@@ -60,7 +60,7 @@ toogg <path to file>
 tomp3 <path to file>
 ```
 
-### Uglify a JS code
+### [Uglify a JS code](uglify)
 
 *Dependencies*: [Uglify-JS](https://www.npmjs.com/package/uglify-js)
 
@@ -70,6 +70,7 @@ uglify <input JS file> <output file>
 
 ### Download audio from SoundCloud
 
+*Script*: [soundcloud-music](soundcloud-music)
 *Dependencies*: [Soundscrape](https://github.com/Miserlou/SoundScrape)
 
 ```sh
@@ -77,6 +78,8 @@ soundcloud-music <link to soundcloud>
 ```
 
 ### Force stop and clean Docker containers
+
+*Script*: [dckill](dckill)
 
 ```sh
 dckill
