@@ -19,7 +19,7 @@ export PATH="$(pwd):$PATH"
 
 ## 📜 SCRIPTS
 
-### Download video from YouTube in MP4 format
+### ⏬ Download video from YouTube in MP4 format
 
 Script: [youtube-video](youtube-video)  
 Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/)
@@ -28,7 +28,7 @@ Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://
 youtube-video "https://www.youtube.com/watch?v=HgfojLtSBTM"
 ```
 
-### Merge video and audio together
+### 🔀 Merge video and audio together
 
 Script: [vamerge](vamerge)  
 Dependencies: [ffmpeg](https://www.ffmpeg.org/)
@@ -38,7 +38,7 @@ vamerge <path to video file> <path to audio file>
 # the order is important, first video, then audio
 ```
 
-### Download audio from YouTube in OGG format
+### 🔽 Download audio from YouTube in OGG format
 
 Script: [youtube-music](youtube-music)  
 Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/)
@@ -47,7 +47,7 @@ Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://
 youtube-music "https://www.youtube.com/watch?v=HgfojLtSBTM"  
 ```
 
-### Convert audio file to OGG
+### ♋️ Convert audio file to OGG
 
 Script: [toogg](toogg)  
 Dependencies: [ffmpeg](https://www.ffmpeg.org/)
@@ -56,16 +56,7 @@ Dependencies: [ffmpeg](https://www.ffmpeg.org/)
 toogg <path to file>
 ```
 
-### Convert audio file to MP3
-
-Script: [tomp3](tomp3)  
-Dependencies: [ffmpeg](https://www.ffmpeg.org/)
-
-```sh
-tomp3 <path to file>
-```
-
-### Uglify a JS code
+### 😈 Uglify a JS code
 
 Script: [uglify](uglify)  
 Dependencies: [Uglify-JS](https://www.npmjs.com/package/uglify-js)
@@ -74,7 +65,16 @@ Dependencies: [Uglify-JS](https://www.npmjs.com/package/uglify-js)
 uglify <input JS file> <output file>
 ```
 
-### Download audio from SoundCloud
+### ♋️ Convert audio file to MP3
+
+Script: [tomp3](tomp3)  
+Dependencies: [ffmpeg](https://www.ffmpeg.org/)
+
+```sh
+tomp3 <path to file>
+```
+
+### 🔉 Download audio from SoundCloud
 
 Script: [soundcloud-music](soundcloud-music)  
 Dependencies: [Soundscrape](https://github.com/Miserlou/SoundScrape)
@@ -83,7 +83,7 @@ Dependencies: [Soundscrape](https://github.com/Miserlou/SoundScrape)
 soundcloud-music <link to soundcloud>
 ```
 
-### Force stop and clean Docker containers
+### 🐳 Force stop and clean Docker containers
 
 Script: [dckill](dckill)
 
