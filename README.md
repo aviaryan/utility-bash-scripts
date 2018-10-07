@@ -1,5 +1,7 @@
 # 🤓 Utility bash scripts
 
+[![Contributors needed](https://img.shields.io/badge/contributors-needed-yellow.svg)](CONTRIBUTING.md)
+
 Utility bash scripts to do automatable tasks with a single command. We have scripts to download youtube videos, download music from youtube, convert media files, etc. 
 
 <u>Contribute and add your secret script.</u>
