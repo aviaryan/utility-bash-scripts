@@ -10,8 +10,8 @@ Download scripts download to `~/Downloads/` folder. For videos, they download to
 For best results, clone this git repo to a fixed location on your computer and add it to `$PATH`.
 ```sh
 cd ~
-git clone git@github.com:aviaryan/utility-bash-scripts.git scripts
-cd scripts
+git clone https://github.com/aviaryan/utility-bash-scripts.git utility-scripts
+cd utility-scripts
 export PATH="$(pwd):$PATH"
 ```
 
