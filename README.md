@@ -38,13 +38,16 @@ vamerge <path to video file> <path to audio file>
 # the order is important, first video, then audio
 ```
 
-### 🔰 Download audio from YouTube in OGG format
+### 🔰 Download audio from YouTube
 
 Script: [youtube-music](youtube-music)  
 Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/)
 
+*Default download format is `ogg`(vorbis), pass second parameter as `mp3`, `wav`, `m4a` to use another format.*
+
 ```sh
 youtube-music "https://www.youtube.com/watch?v=HgfojLtSBTM"  
+youtube-music "https://www.youtube.com/watch?v=HgfojLtSBTM" mp3
 ```
 
 ### ♋️ Convert audio file to OGG

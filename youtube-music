@@ -1,4 +1,11 @@
 #!/bin/bash
 cd ~/Downloads/Music
-youtube-dl --prefer-ffmpeg -f 171/251/140/bestaudio --extract-audio --audio-format vorbis --audio-quality 0 --external-downloader aria2c $1
+# get output format
+# pass these as values - vorbis,mp3,m4a,wav
+format=vorbis
+if [ "$2" ]; then
+	format=$2
+fi
+# download
+youtube-dl --prefer-ffmpeg -f 171/251/140/bestaudio --extract-audio --audio-format $format --audio-quality 0 --external-downloader aria2c $1
 # 171 - webm 145k, 251 - webm 167k, 140 - m4a 129k
