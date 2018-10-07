@@ -1,7 +1,8 @@
-# Utility BASH scripts
+# Utility bash scripts
 
-Utility bash scripts to do stuff like download youtube videos, download music from youtube, convert media formats, etc.
+Utility bash scripts to do automatable tasks with a single command. We have scripts to download youtube videos, download music from youtube, convert media files, etc. 
 
+👥 Contribute and add your secret script.
 
 ## NOTES
 
@@ -61,7 +62,7 @@ tomp3 <path to file>
 
 ### Uglify a JS code
 
-*Dependencies*: [Uglijy-JS](https://www.npmjs.com/package/uglify-js)
+*Dependencies*: [Uglify-JS](https://www.npmjs.com/package/uglify-js)
 
 ```sh
 uglify <input JS file> <output file>
