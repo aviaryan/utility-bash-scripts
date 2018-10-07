@@ -1,6 +1,6 @@
 # Useful BASH scripts
 
-Utility bash scripts to do stuff like download youtube videos, download music from youtube, kill dangling Docker images, etc.
+Utility bash scripts to do stuff like download youtube videos, download music from youtube, convert media formats, etc.
 
 
 ## PRO-TIP
@@ -72,4 +72,10 @@ uglify <input JS file> <output file>
 
 ```sh
 soundcloud-music <link to soundcloud>
+```
+
+### Force stop and clean Docker containers
+
+```sh
+dckill
 ```
