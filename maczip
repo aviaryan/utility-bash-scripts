@@ -1,0 +1,3 @@
+#!/bin/bash
+# zip without .DS_Store on a Mac
+zip -r "$1.zip" "$1" -x "*.DS_Store"
