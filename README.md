@@ -4,7 +4,7 @@ Utility bash scripts to do automatable tasks with a single command. We have scri
 
 👥 Contribute and add your secret script.
 
-## NOTES
+## 📝 NOTES
 
 Download scripts download to `~/Downloads/` folder. For videos, they download to `~/Downloads/Videos` and for audio, they download to `~/Downloads/Music`.
 
@@ -17,10 +17,11 @@ export PATH="$(pwd):$PATH"
 ```
 
 
-## SCRIPTS
+## 📜 SCRIPTS
 
 ### Download video from YouTube in MP4 format
 
+Script: [youtube-video](youtube-video)  
 Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/)
 
 ```sh
@@ -29,6 +30,7 @@ youtube-video "https://www.youtube.com/watch?v=HgfojLtSBTM"
 
 ### Merge video and audio together
 
+Script: [vamerge](vamerge)  
 Dependencies: [ffmpeg](https://www.ffmpeg.org/)
 
 ```sh
@@ -38,6 +40,7 @@ vamerge <path to video file> <path to audio file>
 
 ### Download audio from YouTube in OGG format
 
+Script: [youtube-music](youtube-music)  
 Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/)
 
 ```sh
@@ -46,6 +49,7 @@ youtube-music "https://www.youtube.com/watch?v=HgfojLtSBTM"
 
 ### Convert audio file to OGG
 
+Script: [toogg](toogg)  
 Dependencies: [ffmpeg](https://www.ffmpeg.org/)
 
 ```sh
@@ -54,6 +58,7 @@ toogg <path to file>
 
 ### Convert audio file to MP3
 
+Script: [tomp3](tomp3)  
 Dependencies: [ffmpeg](https://www.ffmpeg.org/)
 
 ```sh
@@ -62,6 +67,7 @@ tomp3 <path to file>
 
 ### [Uglify a JS code](uglify)
 
+Script: [uglify](uglify)  
 Dependencies: [Uglify-JS](https://www.npmjs.com/package/uglify-js)
 
 ```sh
