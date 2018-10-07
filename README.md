@@ -103,3 +103,11 @@ Script: [maczip](maczip)
 ```sh
 maczip <path to folder>
 ```
+
+### ♻️ Clean Trash with command
+
+Script: [empty-trash](empty-trash)
+
+```sh
+empty-trash
+```

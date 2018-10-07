@@ -1,0 +1,3 @@
+#!/bin/bash
+[ -d ~/.local/share/Trash ] && rm -rf ~/.local/share/Trash/* && echo "Cleaned shared trash"
+[ -d ~/.Trash ] && rm -rf ~/.Trash/* && echo "Cleaned trash" # Mac and some systems
