@@ -1,8 +1,8 @@
-# Utility bash scripts
+# 🤓 Utility bash scripts
 
 Utility bash scripts to do automatable tasks with a single command. We have scripts to download youtube videos, download music from youtube, convert media files, etc. 
 
-👥 Contribute and add your secret script.
+<u>Contribute and add your secret script.</u>
 
 ## 📝 NOTES
 
