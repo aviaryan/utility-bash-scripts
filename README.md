@@ -16,12 +16,12 @@ export PATH="$(pwd):$PATH"
 
 ## SCRIPTS
 
-### Download video from YouTube in MP4
+### Download video from YouTube in MP4 format
 
 This script requires [youtube-dl](https://github.com/rg3/youtube-dl).
 
 ```sh
-youtube-video https://www.youtube.com/watch?v=HgfojLtSBTM
+youtube-video "https://www.youtube.com/watch?v=HgfojLtSBTM"
 ```
 
 ### Merge video and audio together
@@ -31,4 +31,44 @@ Requires [ffmpeg](https://www.ffmpeg.org/).
 ```sh
 vamerge <path to video file> <path to audio file>
 # the order is important, first video, then audio
+```
+
+### Download audio from YouTube in OGG format
+
+This script requires [youtube-dl](https://github.com/rg3/youtube-dl).
+
+```sh
+youtube-music "https://www.youtube.com/watch?v=HgfojLtSBTM"  
+```
+
+### Convert audio file to OGG
+
+Requires [ffmpeg](https://www.ffmpeg.org/).
+
+```sh
+toogg <path to file>
+```
+
+### Convert audio file to MP3
+
+Requires [ffmpeg](https://www.ffmpeg.org/).
+
+```sh
+tomp3 <path to file>
+```
+
+### Uglify a JS code
+
+Requies [Uglijy-JS](https://www.npmjs.com/package/uglify-js).
+
+```sh
+uglify <input JS file> <output file>
+```
+
+### Download audio from SoundCloud
+
+Requires [Soundscrape](https://github.com/Miserlou/SoundScrape)
+
+```sh
+soundcloud-music <link to soundcloud>
 ```
