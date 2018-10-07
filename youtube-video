@@ -1,0 +1,4 @@
+#!/bin/bash
+cd ~/Downloads/Videos
+youtube-dl -f 247/244/136/135/248+171/251/140/250/bestaudio --merge-output-format mp4 --external-downloader aria2c -o '%(title)s-%(id)s-%(format_id)s.%(ext)s' $1
+# audio - 175k webm , video - 720p webm

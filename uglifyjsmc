@@ -1,0 +1,3 @@
+#!/bin/bash
+uglifyjs $1 -c screw_ie8,sequences,dead_code,drop_debugger,conditionals,comparisons,evaluate,booleans,loops,unused,hoist_funs,if_return,join_vars,cascade -m screw_ie8 > $2;
+# drop_console

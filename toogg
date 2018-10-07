@@ -1,0 +1,9 @@
+#!/bin/bash
+fn=${1%.*}
+# ffmpeg -i "$1" -acodec libmp3lame "$fn.mp3"
+ffmpeg -i "$1" -vn -y "$fn.ogg"
+# http://bytefreaks.net/gnulinux/bash/ffmpeg-extract-audio-from-webm-to-ogg
+# http://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash
+
+# http://stackoverflow.com/questions/2711001/how-to-apply-shell-command-to-each-line-of-a-command-output
+# ls -1 *.webm | xargs -L1 echo
