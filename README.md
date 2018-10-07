@@ -1,4 +1,4 @@
-# Useful BASH scripts
+# Utility BASH scripts
 
 Utility bash scripts to do stuff like download youtube videos, download music from youtube, convert media formats, etc.
 
