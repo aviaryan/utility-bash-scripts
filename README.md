@@ -22,7 +22,7 @@ export PATH="$(pwd):$PATH"
 ### 🔻 Download video from YouTube in MP4 format
 
 Script: [youtube-video](youtube-video)  
-Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/)
+Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/), [aria2c](https://aria2.github.io/)
 
 ```sh
 youtube-video "https://www.youtube.com/watch?v=HgfojLtSBTM"
@@ -41,7 +41,7 @@ vamerge <path to video file> <path to audio file>
 ### 🔰 Download audio from YouTube
 
 Script: [youtube-music](youtube-music)  
-Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/)
+Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/), [aria2c](https://aria2.github.io/)
 
 *Default download format is `ogg`(vorbis), pass second parameter as `mp3`, `wav`, `m4a` to use another format.*
 
