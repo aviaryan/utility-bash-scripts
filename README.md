@@ -19,7 +19,7 @@ export PATH="$(pwd):$PATH"
 
 ## 📜 SCRIPTS
 
-### ⏬ Download video from YouTube in MP4 format
+### 🔻 Download video from YouTube in MP4 format
 
 Script: [youtube-video](youtube-video)  
 Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/)
@@ -38,7 +38,7 @@ vamerge <path to video file> <path to audio file>
 # the order is important, first video, then audio
 ```
 
-### 🔽 Download audio from YouTube in OGG format
+### 🔰 Download audio from YouTube in OGG format
 
 Script: [youtube-music](youtube-music)  
 Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/)
