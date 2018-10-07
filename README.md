@@ -3,10 +3,11 @@
 Utility bash scripts to do stuff like download youtube videos, download music from youtube, convert media formats, etc.
 
 
-## PRO-TIP
+## NOTES
+
+Download scripts download to `~/Downloads/` folder. For videos, they download to `~/Downloads/Videos` and for audio, they download to `~/Downloads/Music`.
 
 For best results, clone this git repo to a fixed location on your computer and add it to `$PATH`.
-
 ```sh
 cd ~
 git clone git@github.com:aviaryan/utility-bash-scripts.git scripts
