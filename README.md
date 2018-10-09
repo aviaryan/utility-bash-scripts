@@ -116,8 +116,6 @@ maczip <path to folder>
 
 Script: [delete-ss](delete-ss)
 
-*Moves screenshots to trash rather than permanently deleting them.*
-
 ```sh
 delete-ss
 ```
