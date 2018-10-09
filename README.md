@@ -96,6 +96,14 @@ Script: [dckill](dckill)
 dckill
 ```
 
+### ♻️ Empty Trash folder
+
+Script: [empty-trash](empty-trash)
+
+```sh
+empty-trash
+```
+
 ### 🤐 ZIP without .DS_Store on a Mac
 
 Script: [maczip](maczip)
@@ -104,10 +112,12 @@ Script: [maczip](maczip)
 maczip <path to folder>
 ```
 
-### ♻️ Empty Trash folder
+### 🖼 Delete screenshots from Desktop on a Mac
 
-Script: [empty-trash](empty-trash)
+Script: [delete-ss](delete-ss)
+
+*Moves screenshots to trash rather than permanently deleting them.*
 
 ```sh
-empty-trash
+delete-ss
 ```
