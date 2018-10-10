@@ -32,7 +32,7 @@ Dependencies: [tar](https://www.gnu.org/software/tar/), [gzip](https://www.gnu.o
 extract <path to archive>
 ```
 
-### 🔻) Download video from YouTube in MP4 format
+### 🔻 Download video from YouTube in MP4 format
 
 Script: [youtube-video](youtube-video)  
 Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/), [aria2c](https://aria2.github.io/) (optional)
