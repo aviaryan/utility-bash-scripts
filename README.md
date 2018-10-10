@@ -21,7 +21,18 @@ export PATH="$(pwd):$PATH"
 
 ## 📜 SCRIPTS
 
-### 🔻 Download video from YouTube in MP4 format
+### ✂️ Extract any archive
+
+Script: [extract](extract)  
+Dependencies: [tar](https://www.gnu.org/software/tar/), [gzip](https://www.gnu.org/software/gzip/), [p7zip](https://www.7-zip.org/), [bzip2](http://www.bzip.org/)
+
+*Extracting .dmg files works only on MacOS.*
+
+```sh
+extract <path to archive>
+```
+
+### 🔻) Download video from YouTube in MP4 format
 
 Script: [youtube-video](youtube-video)  
 Dependencies: [youtube-dl](https://github.com/rg3/youtube-dl), [ffmpeg](https://www.ffmpeg.org/), [aria2c](https://aria2.github.io/) (optional)
