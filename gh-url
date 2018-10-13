@@ -1,0 +1,5 @@
+#!/bin/bash
+curl -i https://git.io -F "url=$1" -F "code=$2"
+
+# https://github.com/aashutoshrathi/awesome-bashrc/issues/15
+# https://blog.github.com/2011-11-10-git-io-github-url-shortener/
