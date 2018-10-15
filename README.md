@@ -139,7 +139,7 @@ Script: [delete-ss](delete-ss)
 delete-ss
 ```
 
-### ❌ Remove .DS_Store files recursively
+### ❌ Remove .DS_Store files recursively (Mac)
 
 Script: [rm-ds-store](rm-ds-store)
 
