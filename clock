@@ -12,12 +12,25 @@ if [ $# != 1 ]; then
     exit 2
 fi
 
+unameOut=$(uname -s)
+case "${unameOut}" in
+  Linux*)  machine=Linux;;
+  Darwin*) machine=Mac;;
+  *)       echo "${unameOut} is not supported"; exit 1
+esac
+
 if [ $1 == "list" ]; then
-    timedatectl list-timezones
-    exit 0
+  case "${unameOut}" in
+    Linux*)  timedatectl list-timezones; exit 0;;
+    Darwin*) sudo systemsetup -listtimezones | less; exit 0;;
+  esac
 fi
 
-TZ_LIST=$(timedatectl list-timezones --no-pager)
+case "${unameOut}" in
+  Linux*)  TZ_LIST=$(timedatectl list-timezones --no-pager);;
+  Darwin*) TZ_LIST=$(sudo systemsetup -listtimezones);;
+esac
+
 if [[ $TZ_LIST == *"$1"* ]]; then
     TZ=$1 date
     exit 0
