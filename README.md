@@ -138,3 +138,11 @@ Script: [delete-ss](delete-ss)
 ```sh
 delete-ss
 ```
+
+### ❌ Remove .DS_Store files recursively
+
+Script: [rm-ds-store](rm-ds-store)
+
+```sh
+rm-ds-store
+```
