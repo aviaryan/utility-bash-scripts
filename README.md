@@ -115,14 +115,6 @@ Script: [empty-trash](empty-trash)
 empty-trash
 ```
 
-### 🏹 Create custom short link for a GitHub URL using git.io
-
-Script: [gh-url](gh-url)
-
-```sh
-gh-url <url-to-shorten> <short-code>
-```
-
 ### 🤐 ZIP without .DS_Store on a Mac
 
 Script: [maczip](maczip)
