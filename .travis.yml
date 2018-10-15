@@ -1,0 +1,5 @@
+language: bash
+script: ./tests/tests.sh
+os:
+  - linux
+  - osx
