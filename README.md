@@ -21,17 +21,6 @@ export PATH="$(pwd):$PATH"
 
 ## 📜 SCRIPTS
 
-### ✂️ Extract any archive
-
-Script: [extract](extract)  
-Dependencies: [tar](https://www.gnu.org/software/tar/), [gzip](https://www.gnu.org/software/gzip/), [p7zip](https://www.7-zip.org/), [bzip2](http://www.bzip.org/)
-
-*Extracting .dmg files works only on MacOS.*
-
-```sh
-extract <path to archive>
-```
-
 ### 🔻 Download video from YouTube in MP4 format
 
 Script: [youtube-video](youtube-video)  
@@ -81,6 +70,17 @@ Dependencies: [Uglify-JS](https://www.npmjs.com/package/uglify-js)
 uglify <input JS file> <output file>
 ```
 
+### ✂️ Extract any archive
+
+Script: [extract](extract)  
+Dependencies: [tar](https://www.gnu.org/software/tar/), [gzip](https://www.gnu.org/software/gzip/), [p7zip](https://www.7-zip.org/), [bzip2](http://www.bzip.org/)
+
+*Extracting .dmg files works only on MacOS.*
+
+```sh
+extract <path to archive>
+```
+
 ### ♋️ Convert audio file to MP3
 
 Script: [tomp3](tomp3)  
@@ -117,7 +117,7 @@ empty-trash
 
 ### ⏰ Get current time at any timezone
 
-Script: [clock](clock)
+Script: [clock](clock)  
 Dependencies: [timedatectl for Linux](https://www.freedesktop.org/software/systemd/man/timedatectl.html), sudo access for Mac
 
 ```sh
