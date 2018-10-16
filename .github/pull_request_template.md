@@ -8,4 +8,4 @@
 
 - [ ] The script is marked as executable (`chmod +x`).
 - [ ] I have added/updated the README entry for the script (if applicable).
-- [ ] I have mentioned any dependencies and OS requirements for the script in the README.
+- [ ] I have mentioned any outstanding dependencies and OS requirements for the script in the README.

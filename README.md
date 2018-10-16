@@ -115,6 +115,25 @@ Script: [empty-trash](empty-trash)
 empty-trash
 ```
 
+### ⏲  Get current time at any timezone
+
+Script: [clock](clock)
+Dependencies: [timedatectl for Linux](https://www.freedesktop.org/software/systemd/man/timedatectl.html), sudo access for Mac
+
+```sh
+clock list
+clock <Time Zone>
+```
+
+### 🌧 Get weather report for a location
+
+Script: [weather](weather)
+
+```sh
+weather <City Name>
+weather # Will use your IP Address location
+```
+
 ### 🏹 Create custom short link for a GitHub URL using git.io
 
 Script: [gh-url](gh-url)
@@ -145,22 +164,4 @@ Script: [rm-ds-store](rm-ds-store)
 
 ```sh
 rm-ds-store
-```
-### ⏲  Get time at a location
-
-Script: [clock](clock)
-Dependencies: Linux: [timedatectl](https://www.freedesktop.org/software/systemd/man/timedatectl.html) Mac: sudo
-
-```sh
-clock list
-clock <Time Zone>
-```
-
-### 🌧 Get weather forecast
-
-Script: [weather](weather)
-
-```sh
-weather <City Name>
-weather # Will use your IP Address location
 ```
