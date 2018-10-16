@@ -159,7 +159,6 @@ clock <Time Zone>
 ### 🌧 Get weather forecast
 
 Script: [weather](weather)
-Dependencies: [curl](https://curl.haxx.se/)
 
 ```sh
 weather <City Name>
