@@ -146,3 +146,21 @@ Script: [rm-ds-store](rm-ds-store)
 ```sh
 rm-ds-store
 ```
+### ⏲  Get time at a location
+
+Script: [clock](clock)
+Dependencies: Linux: [timedatectl](https://www.freedesktop.org/software/systemd/man/timedatectl.html) Mac: sudo
+
+```sh
+clock list
+clock <Time Zone>
+```
+
+### 🌧 Get weather forecast
+
+Script: [weather](weather)
+
+```sh
+weather <City Name>
+weather # Will use your IP Address location
+```
