@@ -115,7 +115,7 @@ Script: [empty-trash](empty-trash)
 empty-trash
 ```
 
-### ⏲  Get current time at any timezone
+### ⏰ Get current time at any timezone
 
 Script: [clock](clock)
 Dependencies: [timedatectl for Linux](https://www.freedesktop.org/software/systemd/man/timedatectl.html), sudo access for Mac
