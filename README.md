@@ -165,3 +165,13 @@ Script: [rm-ds-store](rm-ds-store)
 ```sh
 rm-ds-store
 ```
+
+## 🤘🏻 SIMPLE BASH COMMANDS
+
+These commands are so easy to use that creating a script for them would be overkill.
+
+### 🗄 Display filesystem information (disk usage, mount path)
+
+```sh
+df
+```
