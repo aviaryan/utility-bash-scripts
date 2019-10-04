@@ -168,13 +168,12 @@ rm-ds-store
 
 ### 🖼 Show certificate information of a service
 
-Script: [show-certificate](show-certificate)
+Script: [show-certificate](show-certificate)  
+Dependencies: [openssl](https://www.openssl.org/)
 
 ```sh
 show-certificate google.com
 ```
-
-Depends on openssl.
 
 ## 🤘🏻 SIMPLE BASH COMMANDS
 
