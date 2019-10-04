@@ -1,0 +1,47 @@
+#!/bin/bash
+#
+# show-certificate https://google.com github.com:443 ...
+#
+# google.com:443	Issuer	 C=US, O=Google Trust Services, CN=GTS CA 1O1
+# google.com:443	Not Before	 Sep 17 13:30:43 2019 GMT
+# google.com:443	Not After 	 Dec 10 13:30:43 2019 GMT
+# ...
+# github.com:443	Issuer	 C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert SHA2 Extended Validation Server CA
+# github.com:443	Not Before	 May  8 00:00:00 2018 GMT
+# github.com:443	Not After 	 Jun  3 12:00:00 2020 GMT
+# ...
+#
+PROTOCOLS="https://|ldaps://|smtps://"
+while [ $# -gt 0 ]; do
+  H="$1"
+  PR="https://"
+  PO=":443"
+  URL="$(echo "${H}"|grep -oE "(${PROTOCOLS})?[^:/]*(:[0-9]*)?"|head -1)"
+  HPR="$(echo "${URL}"|grep -oE "${PROTOCOLS}")"
+  HPO="$(echo "${URL}"|grep -oE ":[0-9]+")"
+  HO="${URL}"
+  if [ -n "${HPR}" ]; then
+    HO="$(echo "${HO}"|sed -e "s,${HPR},,")"
+  fi
+  if [ -n "${HPO}" ]; then
+    HO="$(echo "${HO}"|sed -e "s,${HPO},,")"
+    PO="${HPO}"
+  else
+    case "${HPR}" in
+      "https://")
+        PO=":443"
+        ;;
+      "ldaps://")
+        PO=":636"
+        ;;
+      "smtps://")
+        PO=":587"
+        ;;
+    esac
+  fi
+  openssl </dev/zero s_client 2>/dev/null -connect "${HO}${PO}" -servername "${HO}"\
+  |openssl x509 -text\
+  |grep -E "^\s*(Subject:|Issuer:|Not |DNS:)"\
+  |sed -e "s/^\s*//" -e 's/^\([^:]*\):/\1\t/' -e "s/DNS://g" -e "s/^/${HO}${PO}\t/"
+shift
+done

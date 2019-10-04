@@ -166,6 +166,16 @@ Script: [rm-ds-store](rm-ds-store)
 rm-ds-store
 ```
 
+### 🖼 Show certificate information of a service
+
+Script: [show-certificate](show-certificate)
+
+```sh
+show-certificate google.com
+```
+
+Depends on openssl.
+
 ## 🤘🏻 SIMPLE BASH COMMANDS
 
 These commands are so easy to use that creating a script for them would be overkill.
