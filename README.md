@@ -175,6 +175,18 @@ Dependencies: [openssl](https://www.openssl.org/)
 show-certificate google.com
 ```
 
+### 📹 Encode x265
+
+Script: [encode-x265](encode-x265)  
+Dependencies: [ffmpeg](https://pkgs.org/download/ffmpeg)
+
+*Default encoded video's name is `videoname-x265`. But you can change it like the second example.*
+
+```sh
+encode-x265 <path to video>
+encode-x265 <path to video> <path to encoded video>
+```
+
 ## 🤘🏻 SIMPLE BASH COMMANDS
 
 These commands are so easy to use that creating a script for them would be overkill.

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+file=$1
+
+if [[ $# -lt 2 ]]; then
+  ffmpeg -i "$file" -c:a copy -c:v libx265 "${file%.*}$(echo "-x265.")${file#*.}"
+else
+  ffmpeg -i "$file" -c:a copy -c:v libx265 "$2"
+fi
