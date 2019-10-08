@@ -175,7 +175,7 @@ Dependencies: [openssl](https://www.openssl.org/)
 show-certificate google.com
 ```
 
-### 📹 Encode x265
+### 📹 Encode video to x265
 
 Script: [encode-x265](encode-x265)  
 Dependencies: [ffmpeg](https://pkgs.org/download/ffmpeg)
