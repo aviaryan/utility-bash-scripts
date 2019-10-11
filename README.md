@@ -195,10 +195,10 @@ Dependencies: [ffmpeg](https://pkgs.org/download/ffmpeg)
 ```sh
 gif-convert <path to video> <path to gif> <start_at> <end_at> <fps> <scale>
 ```
-**Example**
 
 *If you don't want to change the value, you can use `-`.*
-```
+
+```sh
 gif-convert input.mp4 output.gif 05:00 05:03.6 - 640x360 
 ```
 
