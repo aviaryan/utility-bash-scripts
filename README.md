@@ -187,6 +187,21 @@ encode-x265 <path to video>
 encode-x265 <path to video> <path to encoded video>
 ```
 
+### 🎥 Convert video to gif
+
+Script: [gif-convert](gif-convert)  
+Dependencies: [ffmpeg](https://pkgs.org/download/ffmpeg)
+
+```sh
+gif-convert <path to video> <path to gif> <start_at> <end_at> <fps> <scale>
+```
+**Example**
+
+*If you don't want to change the value, you can use `-`.*
+```
+gif-convert input.mp4 output.gif 05:00 05:03.6 - 640x360 
+```
+
 ## 🤘🏻 SIMPLE BASH COMMANDS
 
 These commands are so easy to use that creating a script for them would be overkill.
