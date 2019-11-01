@@ -211,3 +211,11 @@ These commands are so easy to use that creating a script for them would be overk
 ```sh
 df
 ```
+
+### 🍅 Pomodoro
+
+Script: [pomodoro](pomodoro)
+
+```sh
+pomodoro <focus time length> <break time length>
+```
