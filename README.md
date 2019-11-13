@@ -202,6 +202,15 @@ gif-convert <path to video> <path to gif> <start_at> <end_at> <fps> <scale>
 gif-convert input.mp4 output.gif 05:00 05:03.6 - 640x360 
 ```
 
+### 📜 Learn a new command
+
+Script: [learn-command](learn)  
+Dependencies: [cowsay](https://github.com/schacon/cowsay)
+
+```sh
+learn
+```
+
 ## 🤘🏻 SIMPLE BASH COMMANDS
 
 These commands are so easy to use that creating a script for them would be overkill.
