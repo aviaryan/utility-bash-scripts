@@ -204,11 +204,19 @@ gif-convert input.mp4 output.gif 05:00 05:03.6 - 640x360
 
 ### 📜 Learn a new command
 
-Script: [learn-command](learn)  
+Script: [learn](learn)  
 Dependencies: [cowsay](https://github.com/schacon/cowsay)
 
 ```sh
 learn
+```
+
+### 🍅 Pomodoro
+
+Script: [pomodoro](pomodoro)
+
+```sh
+pomodoro <focus time length> <break time length>
 ```
 
 ## 🤘🏻 SIMPLE BASH COMMANDS
@@ -219,12 +227,4 @@ These commands are so easy to use that creating a script for them would be overk
 
 ```sh
 df
-```
-
-### 🍅 Pomodoro
-
-Script: [pomodoro](pomodoro)
-
-```sh
-pomodoro <focus time length> <break time length>
 ```
