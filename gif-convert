@@ -9,7 +9,7 @@
 start_at=0
 end_at="$(ffmpeg -i "$1" 2>&1 | grep "Duration" | cut -d ' ' -f 4 | sed s/,//)"
 fps="$(ffmpeg -i "$1" 2>&1 | grep "fps" | grep -o "[0-9.]*.fps" | grep -o "[0-9.]*")"
-scale="$(ffmpeg -i "$1" 2>&1 | grep "fps" | grep -o "[0-9]*.x[0-9]*")"
+scale="$(ffmpeg -i "$1" 2>&1 | grep "fps" | grep -Po "\d{3,5}x\d{3,5}")"
 
 if [[ $3 != "-" ]]; then start_at="$3"; fi
 if [[ $4 != "-" ]]; then end_at="$4"; fi
